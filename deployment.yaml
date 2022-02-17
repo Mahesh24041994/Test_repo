@@ -5,7 +5,7 @@
   tasks:
     - name: Testing script deployment
       copy:
-        src: /var/lib/jenkins/workspace/deploy/*
+        src: /var/lib/jenkins/workspace/deploy/Test_repo/file*
         dest: /home/ubuntu1/test
       
     
